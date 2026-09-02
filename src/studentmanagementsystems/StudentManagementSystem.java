@@ -54,7 +54,7 @@ public class StudentManagementSystem {
                                     if (found != null){
                                         System.out.println("Found: " + found.getName() + " | Age: " + found.getAge());
                                     } else {
-                                        System.out.println("Student mot found.");
+                                        System.out.println("Student not found.");
                                     }
                                         break;
                                 case "4":
