@@ -24,7 +24,9 @@ public class StudentManager {
         else {
             System.out.println("\n--- Student Records ---");
             for (Student s : students) {
-                System.out.println("ID: " + s.getStudentID() + " | Name: " + s.getName() + " | " );
+                System.out.println("ID: " + s.getStudentID()
+                        + " | Name: " + s.getName()
+                        + " | Age: " + s.getAge());
             }
         }
     }
